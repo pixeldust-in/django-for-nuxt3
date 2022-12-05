@@ -2,9 +2,7 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path
 
-urlpatterns = [
-    path("super-manager/", admin.site.urls),
-]
+urlpatterns = [path("super-manager/", admin.site.urls), path("", include("core.urls"))]
 
 
 if settings.DEBUG:
