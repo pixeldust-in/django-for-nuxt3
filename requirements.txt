@@ -13,7 +13,7 @@ djangorestframework==3.12.*
 
 # Production Server
 gunicorn==19.9.*
-Pillow==8.3.2
+Pillow==9.3.0
 
 # Custom Pixeldust Package
 https://pixeldust-pypi.s3.ap-south-1.amazonaws.com/pg-pixeldust-common-0.0.1.tar.gz
